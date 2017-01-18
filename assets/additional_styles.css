@@ -43,6 +43,32 @@ footer li {
   padding-top: 150px;
 }
 
+.circle-image {
+  width: 200px;
+}
+
+.mentions, .why-order {
+  background-color: rgb(238,238,238);
+}
+
+.prof-pic {
+  width: 50px;
+}
+
+.download {
+  background: url("images/download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 500px;
+  padding-top: 150px;
+}
+
+.store-link {
+  width: 200px;
+}
+
+
+
 
 /* My standard vertical spacing classes */
 
