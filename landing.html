@@ -70,19 +70,21 @@
         </h2>
 
         <form>
-          <div>
-            <label>
+          <div class="form-group">
+            <label for="exampleInputAddress1">
               Enter your address below.
             </label>
 
-            <div>
-              <i class="fa fa-map-marker"></i>
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">
+                <i class="fa fa-map-marker"></i>
+              </span>
 
-              <input type="text" placeholder="Street address, city, state">
+              <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Street address, city, state">
             </div>
           </div>
 
-          <button type="submit">
+          <button type="submit" class="btn btn-primary btn-block">
             Find Food
           </button>
         </form>
@@ -246,15 +248,17 @@
         <h4>Sign up for special offers</h4>
 
         <form>
-          <div>
-            <input type="email" placeholder="Email">
+          <div class="form-group">
+            <label for="exampleInputEmail1" class="sr-only">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
           </div>
 
-          <div>
-            <input type="number" placeholder="ZIP code">
+          <div class="form-group">
+            <label for="exampleInputZip1" class="sr-only">Password</label>
+            <input type="number" class="form-control" id="exampleInputZip1" placeholder="ZIP code">
           </div>
 
-          <button type="submit">Send me treats</button>
+          <button type="submit" class="btn btn-primary btn-block">Send me treats</button>
         </form>
       </div>
       <div class="col-md-3 padding-inside-top-sm">
